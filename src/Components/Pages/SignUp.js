@@ -29,7 +29,7 @@ const SignUp = () => {
       setConfirmValid(false);
 
       const response = await fetch(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDhd2ZRBrGww8WdRmaYJda8bVMMDEJP-DU",
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAITzOq4WxCBTiTlruwnczOkrwdEtXHQ5c",
         {
           method: "POST",
           body: JSON.stringify({

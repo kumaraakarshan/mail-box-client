@@ -19,7 +19,7 @@ const SignIn = () => {
     const pswdValue = pswdRef.current.value;
 
     const response = await fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDhd2ZRBrGww8WdRmaYJda8bVMMDEJP-DU",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAITzOq4WxCBTiTlruwnczOkrwdEtXHQ5c",
       {
         method: "POST",
         body: JSON.stringify({

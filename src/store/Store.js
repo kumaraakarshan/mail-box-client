@@ -9,7 +9,7 @@ const Store = configureStore({
     auth: AuthSlice.reducer,
     uiauth: Uislice.reducer,
     mail: MailSlice.reducer,
-    mymail:MymailSlice.reducer,
+    mymail: MymailSlice.reducer,
   },
 });
 export default Store;
